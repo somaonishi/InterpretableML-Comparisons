@@ -1,0 +1,4 @@
+max_depth: 4 # 4, 8, 20
+min_forest_size: 10
+pruning_method: auc
+max_number_of_conjunctions: 1000

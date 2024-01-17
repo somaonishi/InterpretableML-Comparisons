@@ -1,0 +1,3 @@
+mode: ori
+min_instance: 0.1
+pruning_conf: 0.25

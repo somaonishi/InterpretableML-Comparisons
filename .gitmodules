@@ -1,0 +1,9 @@
+[submodule "rulecosi"]
+	path = rulecosi
+	url = git@github.com:jobregon1212/rulecosi.git
+[submodule "rerx"]
+	path = rerx
+	url = git@github.com:somaonishi/rerx.git
+[submodule "FBTs"]
+	path = FBTs
+	url = git@github.com:somaonishi/FBTs.git

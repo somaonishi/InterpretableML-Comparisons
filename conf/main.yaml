@@ -1,0 +1,18 @@
+hydra:
+  run:
+    dir: outputs/single/${hydra.job.name}/${data.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: outputs/multirun/${hydra.job.name}/${data.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${seed}
+
+defaults:
+  - _self_
+  - data: openml
+  - model: rerx
+  - exp: simple
+
+n_splits: 10
+metrics: AUC
+
+seed: 42
+gpuid: 0

@@ -1,0 +1,7 @@
+-e rerx/
+-e FBTs/
+-e rulecosi/
+
+optuna>=3.2.0
+hydra-core>=1.3.2
+openml>=0.14.1

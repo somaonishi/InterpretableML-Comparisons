@@ -1,0 +1,3 @@
+defaults:
+  - ensemble: xgboost
+  - rulecosi: default

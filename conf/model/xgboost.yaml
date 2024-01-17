@@ -1,0 +1,4 @@
+defaults:
+  - params: xgboost
+
+name: xgboost

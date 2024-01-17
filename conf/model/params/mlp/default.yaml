@@ -1,0 +1,8 @@
+h_dim: 1
+batch_size: auto
+optimizer: adamw
+lr: 0.01
+weight_decay: 1e-5
+scaler: standard
+onehot: true
+pruning_metric: auc

@@ -1,0 +1,5 @@
+name: Australian
+data_dir: datasets
+categorical_encoder: ordinal # ordinal, onehot
+continuous_encoder: null # standard, minmax
+test_size: 0.2

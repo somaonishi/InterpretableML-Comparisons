@@ -1,0 +1,12 @@
+defaults: 
+  - base
+
+n_trials: 100
+n_startup_trials: 10
+alpha: 0.25
+
+storage: outputs/optuna_storage_pre_study/
+study_name: tmp-${now:%Y-%m-%d}-${now:%H-%M-%S}
+name: ExpOptuna
+
+delete_study: false

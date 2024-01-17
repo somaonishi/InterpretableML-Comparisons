@@ -1,0 +1,4 @@
+objective: null
+max_depth: 6
+eta: 0.3
+n_estimators: 100
