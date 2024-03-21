@@ -1,4 +1,7 @@
-# InterpretableML Comparisons
+# Why Do Tree Ensemble Approximators Not Outperform the Recursive-Rule eXtraction Algorithm?
+  
+🎉 Accepted at Machine Learning and Knowledge Extraction ([paper](https://www.mdpi.com/2504-4990/6/1/31)). 🎉
+
 ## Environment
 - python: >=3.10,<3.11
 
@@ -51,7 +54,23 @@ python script/run_all.py 40981,44096,53,40715,50,44,1462,1494,1558,45557,Occupan
 ```
 
 ## Citation
-under review
+
+```bib
+@article{make6010031,
+	author = {Onishi, Soma and Nishimura, Masahiro and Fujimura, Ryota and Hayashi, Yoichi},
+	doi = {10.3390/make6010031},
+	issn = {2504-4990},
+	journal = {Machine Learning and Knowledge Extraction},
+	number = {1},
+	pages = {658--678},
+	title = {Why Do Tree Ensemble Approximators Not Outperform the Recursive-Rule eXtraction Algorithm?},
+	url = {https://www.mdpi.com/2504-4990/6/1/31},
+	volume = {6},
+	year = {2024},
+	bdsk-url-1 = {https://www.mdpi.com/2504-4990/6/1/31},
+	bdsk-url-2 = {https://doi.org/10.3390/make6010031}
+}
+```
 
 ## Thanks
 Special thanks to collaborators, [Masahiro Nishimura](https://github.com/nishimura28) and [Ryota Fujimura](https://github.com/fuji12345), for their invaluable contributions to this project.
